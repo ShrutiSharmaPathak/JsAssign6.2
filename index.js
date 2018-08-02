@@ -1,7 +1,8 @@
 
 /* In Java script there is no other keyword to declare the variable other
    than 'var'. All type of variables are declared using var keyword only whether
-   string/ number/ boolean etc.  */
+   string/ number/ boolean etc. 
+   Double or single , any quote can be used for string value */
 /*Variable declaration*/   
 var recipeName='Creamy squash linguine';
 var preparationtime=45;
@@ -19,7 +20,7 @@ console.log('Recipe By :'+ recipeBy);
 console.log('Is the Recipe Vegetarian :'+ isVegetarian);
 console.log('Calories :'+ calories); 
 
-/*Updtion of the value of 'preparationTime' and 'recipeBy' variable.
+/*Updation of the value of 'preparationTime' and 'recipeBy' variable.
   No var keyword is required as the variable is already declared */
 preparationtime=60;
 recipeBy="Jimmy Cutter George";
